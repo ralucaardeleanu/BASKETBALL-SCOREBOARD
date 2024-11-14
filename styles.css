@@ -1,0 +1,113 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #1b244a; 
+}
+
+.container-basketball-scoreboard {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: #1b244a; 
+    color: white;
+    text-align: center;
+    gap: 2.3rem;
+    padding-top: 2rem;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#btn-start {
+    background-color: #059669;
+    color: white;
+    text-align: center;
+    margin: 1rem auto;
+    display: block;
+    width: 15.625rem; /* Echivalent cu 250px */
+    padding: 0.625rem; 
+}
+
+.container-score {
+    font-family: "Cursed Timer ULiL", sans-serif;  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3 {
+    font-size: 2.5rem; /* Echivalent cu 40px */
+    padding-bottom: 0.625rem; /* Echivalent cu 10px */
+    font-weight: bold;
+}
+
+#time-display {
+    width: 15rem; /* Echivalent cu 240px */
+    height: 6.25rem; /* Echivalent cu 100px */
+    background: black;
+    color: #FF0040; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.75rem; /* Echivalent cu 60px */
+    border-radius: 0.625rem; /* Echivalent cu 10px */
+    font-family: "Cursed Timer ULiL", sans-serif;
+    margin: auto;
+}
+
+.score-display {
+    width: 15.625rem; /* Echivalent cu 250px */
+    height: 6.25rem; /* Echivalent cu 100px */
+    background: black;
+    color: #FF0040; /* Culoare roșie pentru scor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem; /* Echivalent cu 80px */
+    border-radius: 0.625rem; /* Echivalent cu 10px */
+    font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+.container-buttons {
+    width: 15.625rem; /* Echivalent cu 250px */
+    padding-top: 0.3125rem; /* Echivalent cu 5px */
+}
+
+button {
+    padding: 0.9375rem; /* Echivalent cu 15px */
+    color: #9AABD8;
+    background: transparent;
+    border: #9AABD8 0.0625rem solid; /* Echivalent cu 1px */
+    border-radius: 0.625rem; /* Echivalent cu 10px */
+    margin: 0.625rem; /* Echivalent cu 10px */
+    font-family: "Cursed Timer ULiL";
+    font-weight: bold;
+    font-size: 1.25rem; /* Echivalent cu 20px */
+}
+
+.container-score {
+    gap: 0.625rem; 
+}
+
+.result-container {
+    font-size: 2.7rem;
+}
+
+#btn-newgame {
+    background-color: #059690;
+    color: white;
+    text-align: center;
+    margin: 0.9375rem auto; 
+    display: block;
+    width: 15.625rem; /* Echivalent cu 250px */
+    padding: 0.625rem; /* Echivalent cu 10px */
+}
